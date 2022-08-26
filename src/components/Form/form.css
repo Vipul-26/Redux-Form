@@ -1,0 +1,50 @@
+.form_field {
+    margin-top: 10px;
+}
+
+.radio-col {
+    margin-left: 0.5rem;
+}
+
+.radio-col label {
+    margin-left: 0.5rem;
+    font-size: small;
+}
+
+.card {
+    margin: 2rem auto;
+    max-width: 1024px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .card {
+        margin: 1rem auto;
+        max-width: 980px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card {
+        margin: 6rem auto;
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .radio-col {
+        margin-left: 0.25rem;
+    }
+
+    .radio-col label {
+        margin-left: 0.25rem;
+    }
+
+    .card-body {
+        padding: 0.5rem 1rem;
+    }
+
+    .card {
+        margin: 1.5rem auto;
+        max-width: 350px;
+    }
+}
